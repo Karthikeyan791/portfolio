@@ -1,0 +1,50 @@
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.greeting {
+  color: var(--accent-color);
+  font-family: monospace;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-size: 4rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  line-height: 1.1;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.summary {
+  max-width: 600px;
+  font-size: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .name {
+    font-size: 3rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+}
